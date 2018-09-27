@@ -1,9 +1,6 @@
 # -*- coding: UTF-8 -*-
-from lexer.Num import *
-from lexer.Real import *
-from lexer.Word import *
-from lexer.Token import *
 from symbols.Type import *
+from lexer.head import *
 
 class Lexer(object):
     line = 1
@@ -150,6 +147,7 @@ if __name__ == "__main__":
             print("(%s,%d,%d)" % (tok.lexeme, tok.tag, tok.width))
         elif type(tok) == Num:
             print("(%s,%d)" % (tok.value, tok.tag))
+
 
 
 

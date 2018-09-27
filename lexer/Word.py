@@ -1,6 +1,5 @@
 # -*- coding: UTF-8 -*-
-from lexer.Token import Token
-from lexer.Tag import Tag
+from lexer.head import *
 
 class Word(Token):
     def __init__(self, s, t):
