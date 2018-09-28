@@ -10,6 +10,7 @@ class Lexer(object):
     def reserve(self, w):
         self.words[w.lexeme] = w
 
+
     def __init__(self, filename):
         fd = open(filename, "r")
         self.src = fd.read()
