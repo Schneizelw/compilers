@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 from lexer.head import *
 
+
 class Real(Token):
     def __init__(self, v):
         Token.__init__(self, Tag.REAL)
