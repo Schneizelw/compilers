@@ -6,7 +6,6 @@ class Lexer(object):
     line = 1
     words = dict()
     cur = 0
-    
 
     def reserve(self, w):
         self.words[w.lexeme] = w
