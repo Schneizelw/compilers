@@ -6,6 +6,7 @@ class Type(Words):
         Words.__init__(self, s, t)
         self.width = w
 
+
 class Types(Type):
     Int = Type("int", Tag.BASIC, 4)
     Float = Type("float", Tag.BASIC, 8)
